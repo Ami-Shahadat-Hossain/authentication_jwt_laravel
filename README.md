@@ -11,10 +11,10 @@ php artisan make:mail OTPMail
 
 ```
 MAIL_MAILER=smtp
-MAIL_HOST=mail.teamrabbil.com
+MAIL_HOST=mail.host
 MAIL_PORT=587
 MAIL_USERNAME=info@teamrabbil.com
-MAIL_PASSWORD=~sR4[bhaC[Qs
+MAIL_PASSWORD=host.password
 MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS="info@teamrabbil.com"
 MAIL_FROM_NAME="POS Project"
